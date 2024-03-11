@@ -38,7 +38,7 @@ public class Word {
                 break;
         
             default:
-            System.out.println("Hatt bsdk");
+            System.out.println("Hamse na hoga");
                 break;
         }
     }
