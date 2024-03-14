@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class HighestNumber {
     public static void main(String[] args) {
 
@@ -6,7 +7,9 @@ public class HighestNumber {
         for(int i=0; i<arr.length; i++){
             max_val = Math.max(max_val, arr[i]);
         }
-        System.out.println(max_val);
+        Arrays.sort(arr);
+        System.out.println(arr[arr.length-2]);
+
 
     }
 }
